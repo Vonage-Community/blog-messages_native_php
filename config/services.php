@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'vonage' => [
+        'application_id' => env('VONAGE_APPLICATION_ID'),
+        'private_key_path' => env('VONAGE_PRIVATE_KEY_PATH', 'private.key'),
+        'vonage_to' => env('VONAGE_TO'),
+    ],
 ];
